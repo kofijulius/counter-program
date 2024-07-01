@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+h2{
+    font-size: 8rem;
+    padding: px;
+    margin: 1px;
+    font-family: sans-serif;
+    font-weight: 10px;
+    align-items: center;
+}
+button{
+    color: aliceblue;
+    background-color: rgb(122, 13, 13);
+    border: 1px , black;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    
+}
+button:hover{
+    background-color: rgb(150, 60, 60);
+}
+button:active{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#save-el{
+    margin-left: 1px;
+}
